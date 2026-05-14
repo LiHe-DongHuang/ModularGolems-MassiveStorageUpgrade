@@ -1,0 +1,11 @@
+{
+  "gui.modulargolemsmassivestorageupgrade.storage_tab": "Golem Storage",
+  "commands.modulargolemsmassivestorageupgrade.check.success": "There are %s slots used in this golem's inventory",
+  "commands.modulargolemsmassivestorageupgrade.transfer.success": "Successfully transferred %s items to golem storage",
+  "commands.modulargolemsmassivestorageupgrade.transfer.empty_hand": "You are not holding any items",
+  "commands.modulargolemsmassivestorageupgrade.transfer.full": "Golem storage is full or cannot accept this item",
+  "commands.modulargolemsmassivestorageupgrade.common.no_target": "Please look at a golem to use this command",
+  "commands.modulargolemsmassivestorageupgrade.common.no_data": "Could not find storage data for this golem",
+  "commands.modulargolemsmassivestorageupgrade.common.error": "Execution error: %s",
+  "config.modulargolemsmassivestorageupgrade.spawn_death_chest": "Spawn Death Chest"
+}

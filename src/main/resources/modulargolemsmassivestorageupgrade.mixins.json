@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.lihe.modulargolemsmassivestorageupgrade.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "modulargolemsmassivestorageupgrade.refmap.json",
+  "mixins": [
+    "AbstractGolemEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

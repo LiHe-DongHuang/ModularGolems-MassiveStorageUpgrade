@@ -1,0 +1,11 @@
+{
+  "gui.modulargolemsmassivestorageupgrade.storage_tab": "傀儡背包",
+  "commands.modulargolemsmassivestorageupgrade.check.success": "该傀儡背包中有 %s 格物品",
+  "commands.modulargolemsmassivestorageupgrade.transfer.success": "成功转存 %s 个物品到傀儡背包",
+  "commands.modulargolemsmassivestorageupgrade.transfer.empty_hand": "你手上没有物品",
+  "commands.modulargolemsmassivestorageupgrade.transfer.full": "傀儡背包已满或无法存入该物品",
+  "commands.modulargolemsmassivestorageupgrade.common.no_target": "请对着傀儡使用此指令",
+  "commands.modulargolemsmassivestorageupgrade.common.no_data": "未找到该傀儡的背包数据",
+  "commands.modulargolemsmassivestorageupgrade.common.error": "执行错误: %s",
+  "config.modulargolemsmassivestorageupgrade.spawn_death_chest": "傀儡死亡时将在原地尝试生成一个装着背包物品的箱子"
+}
