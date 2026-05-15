@@ -18,6 +18,8 @@ public class GolemStorageTab extends GolemTabBase<EquipmentGroup, GolemStorageTa
 
     @Override
     public void onTabClicked() {
-        ModNetwork.CHANNEL.sendToServer(new OpenStoragePacket(manager.token.golem.getUUID()));
+        if (manager.token.golem != null) {
+            ModNetwork.CHANNEL.sendToServer(new OpenStoragePacket(manager.token.golem.getUUID()));
+        }
     }
 }
